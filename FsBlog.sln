@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "themes", "themes", "{B3ECD76F-A63F-46DC-847A-71DA0FCFC63A}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{8E03BE4F-38F8-4701-AF77-B49950F254F5}"
 	ProjectSection(SolutionItems) = preProject
 		FsBlog.nuspec = FsBlog.nuspec
@@ -17,13 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{14C8
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsBlogLib", "tools\FsBlogLib\FsBlogLib.fsproj", "{B83F5E3E-8CEC-4F4E-B251-D2C853816C62}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{BDAF64FC-970C-4227-8BB0-878E6AA012E4}"
-	ProjectSection(SolutionItems) = preProject
-		layouts\default.cshtml = layouts\default.cshtml
-		layouts\page.cshtml = layouts\page.cshtml
-		layouts\post.cshtml = layouts\post.cshtml
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B0B6DBA6-5906-45EE-9486-E17B63A16DEF}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
@@ -36,6 +31,61 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{76023851-00A1-494C-8928-3E61E90258AB}"
 	ProjectSection(SolutionItems) = preProject
 		config\config.yml = config\config.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fsharp66", "fsharp66", "{840B4AE2-0C01-4EB4-BD00-64A79646F648}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\favicon.png = themes\fsharp66\favicon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D6B910D4-18DB-403C-A7B4-4C2449581EFD}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\fonts\glyphicons-halflings-regular.eot = themes\fsharp66\fonts\glyphicons-halflings-regular.eot
+		themes\fsharp66\fonts\glyphicons-halflings-regular.svg = themes\fsharp66\fonts\glyphicons-halflings-regular.svg
+		themes\fsharp66\fonts\glyphicons-halflings-regular.ttf = themes\fsharp66\fonts\glyphicons-halflings-regular.ttf
+		themes\fsharp66\fonts\glyphicons-halflings-regular.woff = themes\fsharp66\fonts\glyphicons-halflings-regular.woff
+		themes\fsharp66\fonts\thsarabunnew-webfont.eot = themes\fsharp66\fonts\thsarabunnew-webfont.eot
+		themes\fsharp66\fonts\thsarabunnew-webfont.ttf = themes\fsharp66\fonts\thsarabunnew-webfont.ttf
+		themes\fsharp66\fonts\thsarabunnew-webfont.woff = themes\fsharp66\fonts\thsarabunnew-webfont.woff
+		themes\fsharp66\fonts\thsarabunnew.css = themes\fsharp66\fonts\thsarabunnew.css
+		themes\fsharp66\fonts\thsarabunnew_bold-webfont.eot = themes\fsharp66\fonts\thsarabunnew_bold-webfont.eot
+		themes\fsharp66\fonts\thsarabunnew_bold-webfont.ttf = themes\fsharp66\fonts\thsarabunnew_bold-webfont.ttf
+		themes\fsharp66\fonts\thsarabunnew_bold-webfont.woff = themes\fsharp66\fonts\thsarabunnew_bold-webfont.woff
+		themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.eot = themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.eot
+		themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.ttf = themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.ttf
+		themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.woff = themes\fsharp66\fonts\thsarabunnew_bolditalic-webfont.woff
+		themes\fsharp66\fonts\thsarabunnew_italic-webfont.eot = themes\fsharp66\fonts\thsarabunnew_italic-webfont.eot
+		themes\fsharp66\fonts\thsarabunnew_italic-webfont.ttf = themes\fsharp66\fonts\thsarabunnew_italic-webfont.ttf
+		themes\fsharp66\fonts\thsarabunnew_italic-webfont.woff = themes\fsharp66\fonts\thsarabunnew_italic-webfont.woff
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fsharp.formatting", "fsharp.formatting", "{A6737ED2-FD6D-48AA-8D8E-16E7AFFFA7D9}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\fsharp.formatting\tooltips.css = themes\fsharp66\fsharp.formatting\tooltips.css
+		themes\fsharp66\fsharp.formatting\tooltips.js = themes\fsharp66\fsharp.formatting\tooltips.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "javascripts", "javascripts", "{E6C7D6AF-052B-4C8F-9A6C-9F64E44CB046}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\javascripts\scale.fix.js = themes\fsharp66\javascripts\scale.fix.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{552A4184-D695-4FCC-A207-81E11217ECC2}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\layouts\default.cshtml = themes\fsharp66\layouts\default.cshtml
+		themes\fsharp66\layouts\page.cshtml = themes\fsharp66\layouts\page.cshtml
+		themes\fsharp66\layouts\post.cshtml = themes\fsharp66\layouts\post.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{5A1E2727-F3A0-4AE6-88FD-5B58DAFF9A8A}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\source\index.cshtml = themes\fsharp66\source\index.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stylesheets", "stylesheets", "{5D1360EF-9667-48AA-833A-6E9AA19E6994}"
+	ProjectSection(SolutionItems) = preProject
+		themes\fsharp66\stylesheets\pygment_trac.css = themes\fsharp66\stylesheets\pygment_trac.css
+		themes\fsharp66\stylesheets\styles.css = themes\fsharp66\stylesheets\styles.css
 	EndProjectSection
 EndProject
 Global
@@ -59,5 +109,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B83F5E3E-8CEC-4F4E-B251-D2C853816C62} = {8E03BE4F-38F8-4701-AF77-B49950F254F5}
 		{27E210E1-D9C9-4661-9CF5-4B7EDCB3335F} = {22965072-5FEA-4A09-BCF8-975E5EB7942B}
+		{840B4AE2-0C01-4EB4-BD00-64A79646F648} = {B3ECD76F-A63F-46DC-847A-71DA0FCFC63A}
+		{D6B910D4-18DB-403C-A7B4-4C2449581EFD} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
+		{A6737ED2-FD6D-48AA-8D8E-16E7AFFFA7D9} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
+		{E6C7D6AF-052B-4C8F-9A6C-9F64E44CB046} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
+		{552A4184-D695-4FCC-A207-81E11217ECC2} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
+		{5A1E2727-F3A0-4AE6-88FD-5B58DAFF9A8A} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
+		{5D1360EF-9667-48AA-833A-6E9AA19E6994} = {840B4AE2-0C01-4EB4-BD00-64A79646F648}
 	EndGlobalSection
 EndGlobal
