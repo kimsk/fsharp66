@@ -1,0 +1,20 @@
+﻿# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://fsharp66.azurewebsites.net/
+gitlocation: https://github.com/fsprojects/FsBlog.git
+gitbranch: gh-pages
+title: F# และ Functional Programming
+description: >
+    บล็อกเกี่ยวกับภาษา F# และการเขียนโปรแกรมเชิงฟังก์ชัน
+
+source: source/
+blog: source/blog/
+blogIndex: source/blog/index.cshtml
+layouts: layouts
+content: content
+template: tools/empty-template.html
+output: output/
+deploy: ../deploy
+themes: themes
