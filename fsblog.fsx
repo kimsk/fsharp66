@@ -142,7 +142,9 @@ Target "Clean" (fun _ ->
     CleanDirs [output]
 )
 
-Target "Deploy" DoNothing
+Target "Deploy" (fun _ ->
+    CopyRecursive output deploy true |> ignore
+)
 
 Target "Commit" DoNothing
 
